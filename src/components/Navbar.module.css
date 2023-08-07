@@ -1,0 +1,16 @@
+.navbarContainer{
+    background-color: rgb(65, 14, 65);
+    width: 100%;
+    height: 4rem;
+}
+.Link{
+    font-size: 1.3rem;
+    padding: 15px;
+    top: 1rem;
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+.Link:hover{
+    color: red;
+}
