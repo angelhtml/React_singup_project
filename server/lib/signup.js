@@ -63,13 +63,7 @@ const Signup = async (req, res) => {
         else{
             res.send({msg: "Please enter your name"})
         }
-        //console.log(validator.isEmail(email))
-        //console.log(validator.isStrongPassword(password ,{minLength: 8}))
-        //var token = await jwt.sign(req.body, secret, { expiresIn: '7d' });
-        //full access for getting the header in client
-        //res.header("Access-Control-Expose-Headers", "*")
-        //res.set("header_token", token)
-        //res.send({msg: "signed"})
+
     } 
     catch(err){ console.log(err)}
 }
